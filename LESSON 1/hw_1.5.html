@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .text-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .description-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .description-container img, p {
+            margin: 15px;
+        }
+
+        .description-container p {
+            width: 50%;
+            font-size: 20px;
+        }
+
+        .description-container img {
+            width: 200px;
+            height: 300px;
+            background-size: cover;
+        }
+
+        .actors-text {
+            text-align: center;
+        }
+
+
+
+        .actors {
+          display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+
+        }
+
+        .card {
+            width: 300px;
+            height: 400px;
+            text-align: center;
+            align-content: center;
+            border: 2px solid darkgray;
+            background-color: black;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            transition: 2s;
+            cursor: pointer;
+        }
+            .card:hover{
+                width: 400px;
+                height: 600px;
+                transition: 2s;
+            }
+
+            .card img:hover{
+                width: 200px;
+                height: 300px;
+                transition: 3s;
+            }
+
+        .card img {
+            width: 100px;
+            height: 125px;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+<div class="text-container">
+    <p>Фильм</p>
+    <h2>Бэтмен</h2>
+    <span>1989 год </span> <span>2 часа 6 минут</span>
+</div>
+<div class="description-container">
+    <img src="https://fwcdn.pl/fpo/10/24/1024/7025455_1.10.webp" alt="">
+    <p>Действие фильма происходит в Готэм-сити, темном, мрачном городе, «защищенном» только коррумпированной полицией.
+        Появляется зловещий Джокер (Джек Николсон ) и замышляет заговор против жителей. Слабые городские власти не могут
+        с этим справиться. Однако Джокер противостоит своему противнику — загадочному Бэтмену ( Майкл Китон ).
+        Человеку-Летучей Мышке помогает журналистка Вики Вейл ( Ким Бейсингер ).
+    </p>
+
+</div>
+
+<h2 class="actors-text">Актерский состав</h2>
+<div class="actors">
+    <div class="card">
+        <img src="https://fwcdn.pl/ppo/00/57/57/449883_1.2.jpg" alt="">
+        <p>Майкл Китон</p>
+        <p>Бэтмен (Брюс Уэйн)</p>
+        <img src="https://fwcdn.pl/fph/10/24/1024/403628_5.2.jpg" alt="">
+    </div>
+
+    <div class="card">
+        <img src="https://fwcdn.pl/ppo/00/75/75/449648_1.2.jpg" alt="">
+        <p>Джек Николсон</p>
+        <p>Джокер (Джек Нэпьер)</p>
+        <img src="https://fwcdn.pl/fph/10/24/1024/403651_4.2.jpg" alt="">
+    </div>
+
+    <div class="card">
+        <img src="https://fwcdn.pl/ppo/00/08/8/450434_1.2.jpg" alt="">
+        <p>Ким Бейсингер</p>
+        <p>Вики Вейл</p>
+        <img src="https://fwcdn.pl/fph/10/24/1024/403650_5.2.jpg" alt="">
+    </div>
+    <div class="card">
+        <img src="https://fwcdn.pl/ppo/44/82/4482/455680_1.2.jpg" alt="">
+        <p>Пэт Хингл</p>
+        <p>Комиссар Джеймс Гордон</p>
+        <img src="https://fwcdn.pl/fph/10/24/1024/403648_4.2.jpg" alt="">
+    </div>
+
+    <div class="card">
+        <img src="https://fwcdn.pl/ppo/47/89/4789/451324_1.2.jpg" alt="">
+        <p>Билли Ди Уильямс</p>
+        <p>Харви Дент</p>
+        <img src="https://fwcdn.pl/fph/10/24/1024/403619_5.2.jpg" alt="">
+    </div>
+    <div class="card">
+        <img src="https://fwcdn.pl/ppo/50/69/5069/456062_1.2.jpg" alt="">
+        <p>Майкл Гоф</p>
+        <p>Альфред Пенниворт</p>
+        <img src="https://fwcdn.pl/fph/10/24/1024/403643_5.2.jpg" alt="">
+    </div>
+    <div class="card">
+        <img src="https://fwcdn.pl/ppo/81/75/8175/456207_1.2.jpg" alt="">
+        <p>Джек Пэланс</p>
+        <p> Карл Гриссом</p>
+        <img src="https://fwcdn.pl/fph/10/24/1024/403624_4.2.jpg" alt="">
+    </div>
+    <div class="card">
+        <img src="https://fwcdn.pl/ppo/81/76/8176/467334_1.2.jpg" alt="">
+        <p>Джерри Холл</p>
+        <p>Алисия Хант</p>
+        <img src="https://fwcdn.pl/fph/10/24/1024/403646_4.2.jpg" alt="">
+    </div>
+    <div class="card">
+        <img src="https://fwcdn.pl/ppo/45/09/4509/466864_1.2.jpg" alt="">
+        <p>ТрейсиУолтер</p>
+        <p> Бандит Боб</p>
+        <img src="https://fwcdn.pl/ppo/45/09/4509/466864_1.3.jpg" alt="">
+    </div>
+    <div class="card">
+        <img src="https://fwcdn.pl/ppo/81/74/8174/466865_1.2.jpg" alt="">
+        <p>Роберт Вул</p>
+        <p>Александр Нокс</p>
+        <img src="https://fwcdn.pl/ppo/81/74/8174/466865_1.3.jpg" alt="">
+    </div>
+
+</div>
+</body>
+</html>

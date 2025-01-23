@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+*/
+/*---------------wrapper -----------*/
+.wrapper {
+    width: 75vw;
+    height: 75vh;
+    margin: 0 auto;
+}
+
+/*---------------cover -----------*/
+.cover {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   margin: 30px auto;
+}
+
+.cover>img{
+    width: 381px;
+    height: 560px;
+
+}
+
+/*---------------main -----------*/
+.main {
+    margin-left: 40px;
+    flex-wrap: wrap;
+}
+
+/*---------------login-main -----------*/
+.login-main {
+    width: 350px;
+    height: 450px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px #dbdbdb solid;
+}
+
+/*---------------login-main img -----------*/
+.login-main img {
+    width: 175px;
+    height: 71px;
+    margin-top: 40px;
+}
+
+/*---------------form -----------*/
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+/*---------------emeil-login -----------*/
+.emeil-login {
+    width: 268px;
+    height: 38px;
+    border: 1px #dbdbdb solid;
+    padding-left: 10px;
+}
+
+/*---------------password-login -----------*/
+.password-login {
+    width: 268px;
+    height: 38px;
+    margin-top: 7px;
+    border: 1px #dbdbdb solid;
+    padding-left: 10px;
+}
+
+/*----------------Button-------------*/
+
+button {
+    width: 268px;
+    height: 28px;
+    background-color: #4cb5f9;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0 20px 0;
+    color: #f6fbff;
+    font-weight: bold;
+}
+
+/*---------------footer-main -----------*/
+.footer-main {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*---------------facebook-login -----------*/
+.facebook-login {
+    text-decoration: none;
+    color: #38519c;
+    margin-bottom: 20px;
+}
+
+.facebook-login a {
+    text-decoration: none;
+    color: #38519c;
+   font-weight: bolder;
+}
+
+/*---------------forgot-password -----------*/
+.forgot-password a {
+    text-decoration: none;
+    color: #003796;
+}
+
+/*---------------footer-main-text -----------*/
+.footer-main-text {
+    width: 254px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    color: grey;
+}
+
+.footer-main-text a {
+    color: #00376b;
+    text-decoration: none;
+}
+
+.footer-main-text a:hover {
+    text-decoration: 1px #00376b underline;
+}
+
+/*---------------registration-link -----------*/
+.registration-form {
+    width: 350px;
+    height: 63px;
+    border: 1px #dbdbdb solid;
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+.registration-form a {
+    color: #00a2f8;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*---------------text-apk-----------*/
+
+.text-apk{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+/*--------------- -----------*/
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.footer-img img{
+    width: 134px;
+    height: 55px;
+    background-size: cover;
+    cursor: pointer;
+}
+/*---------------basic-footer -----------*/
+.basic-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.basic-footer span{
+    margin-right: 15px;
+    font-size: 12px;
+}

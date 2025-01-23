@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom right,magenta, cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader{
+    width: 200px;
+    height: 200px;
+    border-top: red 5px dashed;
+    border-right: #d2b000 5px dashed;
+    border-left: #00d200 5px dashed;
+    border-bottom: #0000ff 5px dashed;
+    border-radius: 50%;
+    animation: a1 2s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+@keyframes a1 {
+    to{
+        transform: rotate(360deg) scale(1.3);
+    }
+}
+.loader span {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    animation: a2 2s linear infinite;
+    font-weight: bold;
+    font-size: 20px;
+}
+@keyframes a2 {
+    to{
+        transform: rotate(-360deg) scale(1.5);
+    }
+}
