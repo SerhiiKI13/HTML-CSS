@@ -472,7 +472,7 @@ nav a {
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
 .subscribe-footer > h2 {
