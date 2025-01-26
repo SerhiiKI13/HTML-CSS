@@ -17,6 +17,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 2;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 
 .width-1250 {
